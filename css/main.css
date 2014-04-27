@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* logo */
+
+#top .logo {
+    margin: 45px 0 0 56px;
+}
+
+/* 导航栏 */
+
+#top {
+    float: left;
+    width: 200px;
+}
+
+#top .nav {
+    margin: 100px 0 0 0;
+}
+#top .nav ul {
+    margin: 0 0 0 65px;
+    padding: 0;
+
+}
+
+#top .nav ul>li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+/* 去除由于 img 默认值为 baseline 带来的 1px 空格 */
+.nav li img {
+    vertical-align: bottom;
+}
+
+#top .logo a>img {
+    vertical-align: bottom;
+
+}
+
+/* 竖向分割线 */
+
+#vertical_line {
+    float: left;
+}
+
+#vertical_line .line {
+    width: 1.6px;
+    height: 600px;
+    border-left: 1px solid #aaa;
+    margin-top: 20px;
+
+}
+
